@@ -15,7 +15,7 @@
 ---
 
 📖 **Descrição**
-> Este projeto é uma reprodução fiel de uma página de Easy Shopping Via Mobile, baseada em um design do Figma (Community).  
+> Este projeto é uma reprodução fiel de uma página de Travelgram perfil de viagens, baseada em um design do Figma (Community).  
 > Foi desenvolvido para exercitar atenção aos **detalhes visuais**, **alinhamentos**, **hierarquia tipográfica** e **estrutura semântica**.
 
 ---
