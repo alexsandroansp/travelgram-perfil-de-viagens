@@ -4,12 +4,12 @@
 
 <pre align="center">
 ╔══════════════════════════════════════════╗
-║ 🖼️  Projeto: Easy Shopping Via Mobile  ║
+║ 🖼️  Projeto: Travelgram Perfil de Viagens  ║
 ╚══════════════════════════════════════════╝
 </pre>
 
 <p align="center">
-  <em>“Easy Shopping Via Mobile também são arte.”</em>
+  <em>“Travelgram perfil de viagens também são arte.”</em>
 </p>
 
 ---
