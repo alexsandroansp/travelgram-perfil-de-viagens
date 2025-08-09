@@ -7,6 +7,7 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 #profile {
@@ -19,7 +20,8 @@ header .container {
 }
 
 #profile img {
-  width: 176px;
+  max-width: 176px;
+  width: 100%;
   height: 176px;
   object-fit: cover;
   border-radius: 50%;
@@ -43,4 +45,68 @@ header .container {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+@media (max-width: 900px) {
+  header .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  #profile {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+  }
+
+  #profile > div {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  #profile img {
+    width: 140px;
+    height: 140px;
+  }
+
+  #info {
+    width: 100%;
+    max-width: 400px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #info li {
+    gap: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding-block: 24px;
+  }
+
+  #profile img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #profile h1 {
+    font-size: 1.5rem;
+  }
+
+  #info {
+    flex-direction: column;
+    width: 100%;
+    max-width: none;
+    gap: 12px;
+    padding: 0 10px;
+  }
+
+  #info li {
+    justify-content: center;
+  }
 }

@@ -5,6 +5,7 @@ nav {
 
   line-height: 0;
   padding-block: 20px;
+  flex-wrap: wrap;
 }
 
 nav ul {
@@ -21,4 +22,22 @@ nav ul li:last-child img {
   height: 40px;
   object-fit: cover;
   border-radius: 50%;
+}
+
+@media (max-width: 320px) {
+  nav {
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 353px) {
+  nav {
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 240px) {
+  nav {
+    display: none;
+  }
 }
